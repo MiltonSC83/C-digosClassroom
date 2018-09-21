@@ -1,0 +1,7 @@
+c:\users\alumnos\source\repos\Interfaz\Interfaz\obj\Debug\Interfaz.csprojAssemblyReference.cache
+c:\users\alumnos\source\repos\Interfaz\Interfaz\obj\Debug\Interfaz.csproj.CoreCompileInputs.cache
+c:\users\alumnos\source\repos\Interfaz\Interfaz\bin\Debug\Interfaz.exe.config
+c:\users\alumnos\source\repos\Interfaz\Interfaz\bin\Debug\Interfaz.exe
+c:\users\alumnos\source\repos\Interfaz\Interfaz\bin\Debug\Interfaz.pdb
+c:\users\alumnos\source\repos\Interfaz\Interfaz\obj\Debug\Interfaz.exe
+c:\users\alumnos\source\repos\Interfaz\Interfaz\obj\Debug\Interfaz.pdb

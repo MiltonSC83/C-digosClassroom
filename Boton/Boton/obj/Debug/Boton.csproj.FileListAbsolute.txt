@@ -1,0 +1,10 @@
+c:\users\alumnos\source\repos\Boton\Boton\bin\Debug\Boton.exe.config
+c:\users\alumnos\source\repos\Boton\Boton\bin\Debug\Boton.exe
+c:\users\alumnos\source\repos\Boton\Boton\bin\Debug\Boton.pdb
+c:\users\alumnos\source\repos\Boton\Boton\obj\Debug\Boton.csprojAssemblyReference.cache
+c:\users\alumnos\source\repos\Boton\Boton\obj\Debug\Boton.Form1.resources
+c:\users\alumnos\source\repos\Boton\Boton\obj\Debug\Boton.Properties.Resources.resources
+c:\users\alumnos\source\repos\Boton\Boton\obj\Debug\Boton.csproj.GenerateResource.cache
+c:\users\alumnos\source\repos\Boton\Boton\obj\Debug\Boton.csproj.CoreCompileInputs.cache
+c:\users\alumnos\source\repos\Boton\Boton\obj\Debug\Boton.exe
+c:\users\alumnos\source\repos\Boton\Boton\obj\Debug\Boton.pdb
