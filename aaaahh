@@ -1,0 +1,87 @@
+public class HelloActivity extends AppCompatActivity {
+
+    private EditText editText1;
+    private EditText editText2;
+    private TextView textView1;
+    private RadioButton rBurron1;
+    private RadioButton rBuutton2;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_hello);
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloActivity.this, GoodbyeActivity.class));
+            }
+        });
+
+        editText1 = (EditText) findViewById(R.id.txt_num1);
+        editText2 = (EditText) findViewById(R.id.txt_num2);
+        textView1 = (TextView) findViewById(R.id.txt_Resultado);
+        rBurron1 = (RadioButton) findViewById(R.id.radioButtonResta);
+        rBuutton2 = (RadioButton) findViewById(R.id.radioButtonSuma);
+    }
+
+    public void Suma(View view) {
+        if (editText1.length() == 0 || editText2.length() == 0) {
+            textView1.setText("Hacen falta datos, compi");
+        } else {
+
+
+            String Val1T = editText1.getText().toString();
+
+            String Val2T = editText2.getText().toString();
+
+            double Val1Int = Double.parseDouble(Val1T);
+            double Val2Int = Double.parseDouble(Val2T);
+
+            double Result = 0;
+
+
+            if (Val1Int >= 999 || Val2Int >= 999) {
+                String ResStrig = "3 dígitos máximo, prro";
+
+                textView1.setText(ResStrig);
+            } else if (Val1Int <= -999 || Val2Int <= -999) {
+                String ResStrig = "3 dígitos máximo, prro";
+
+                textView1.setText(ResStrig);
+            } else {
+
+
+                if (rBuutton2.isChecked() == true) {
+                    Result = Val1Int + Val2Int;
+
+                    String ResStrig = String.valueOf(Result);
+
+                    textView1.setText(ResStrig);
+
+                } else if (rBurron1.isChecked() == true) {
+                    Result = Val1Int - Val2Int;
+
+                    String ResStrig = String.valueOf(Result);
+
+                    textView1.setText(ResStrig);
+                } else {
+                    textView1.setText("Selecciona una operación");
+                }
+
+            }
+
+
+        }
+    }
+
+        public void Quitar(View view)
+        {
+            editText1.setText(null);
+            editText2.setText(null);
+
+            String ResStrig = "";
+
+            textView1.setText(ResStrig);
+
+        }
+    }
