@@ -44,7 +44,7 @@ Mmed = 0.75 * (n^2 - n)
 
 Mmáx = 1.5 * (n^2 - n) 
 ---
-### Codificación en c 
+### Codificación en c 🤓
 ```
 /*
 
