@@ -46,43 +46,60 @@ Mmáx = 1.5 * (n^2 - n)
 ---
 
 ```
-void ordBurbuja (long a[], int n)
+/*
+
+Ordenación por burbuja : array de n elementos
+
+Se realizan una serie de pasadas mientras indiceIntercambio > 0
+
+*/
+
+void ordBurbuja2 (long a[], int n)
 
 {
 
-int interruptor = 1;
+int i, j;
 
-int pasada, j;
+int indiceIntercambio;
 
-for (pasada = 0; pasada < n-1 && interruptor; pasada++)
+/* i es el índice del último elemento de la sublista */
 
-{
+i = n-1;
 
-/* bucle externo controla la cantidad de pasadas */
+/* el proceso continúa hasta que no haya intercambios */
 
-interruptor = 0
-
-for (j = 0; j < n-pasada-1; j++)
-
-if (a[j] > a[j+1])
+while (i > 0)
 
 {
 
-/* elementos desordenados, es necesario intercambio */
+indiceIntercambio = 0;
 
-long aux;
+/* explorar la sublista a[0] a a[i] */
 
-interruptor = 1;
+for (j = 0; j < i; j++)
 
-aux = a[j];
+/* intercambiar pareja y actualizar indiceIntercambio */
+
+if (a[j+1] < a[j])
+
+{
+
+long aux=a[j];
 
 a[j] = a[j+1];
 
 a[j+1] = aux;
 
+indiceIntercambio = j;
+
 }
+
+/* i se pone al valor del índice del último intercambio */
+
+i = indiceIntercambio;
 
 }
 
 }
+
 ```
