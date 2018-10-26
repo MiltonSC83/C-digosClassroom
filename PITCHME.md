@@ -30,6 +30,7 @@ el caso) a su posición ideal. Al final de las (n-1)
 pasadas los elementos del arreglo estarán ordenados. 
 
 ---
+### Ejemplo 🐷
 
 ![Flux Explained](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
 
