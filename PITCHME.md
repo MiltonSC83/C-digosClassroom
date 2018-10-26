@@ -44,7 +44,7 @@ Mmed = 0.75 * (n^2 - n)
 
 Mmáx = 1.5 * (n^2 - n) 
 ---
-
+### Codificación en c 
 ```
 /*
 
@@ -103,3 +103,7 @@ i = indiceIntercambio;
 }
 
 ```
+---
+### Gracias por su atención
+
+![Flux Explained](https://pbs.twimg.com/media/Dfh4SiWVMAE0AF9.jpg)
