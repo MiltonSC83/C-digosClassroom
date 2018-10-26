@@ -18,7 +18,7 @@ intercambiándolos de posición si están en el orden equivocado
 
 ---
 
-![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
+![Flux Explained](https://es.wikipedia.org/wiki/Ordenamiento_de_burbuja#/media/File:Bubble-sort-example-300px.gif)
 
 ---
 
