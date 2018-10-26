@@ -18,7 +18,7 @@ intercambiándolos de posición si están en el orden equivocado
 
 ---
 
-![GitHub Logo](/descargas/burbuja1)
+![GitHub Logo](/descargas/burbuja1.gif)
 
 ---
 
