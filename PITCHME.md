@@ -107,3 +107,11 @@ i = indiceIntercambio;
 ### Gracias por su atención
 
 ![Flux Explained](https://pbs.twimg.com/media/Dfh4SiWVMAE0AF9.jpg)
+---
+### Fuentes de consulta
+
+http://mapaches.itz.edu.mx/~mbarajas/edinf/Ordenamiento.pdf
+
+file:///C:/Users/alumnos/Downloads/A06.pdf
+
+https://es.wikipedia.org/wiki/Ordenamiento_de_burbuja
