@@ -18,7 +18,13 @@ intercambiándolos de posición si están en el orden equivocado
 
 ---
 
-![GitHub Logo](/descargas/burbuja1.gif)
+• La idea básica de este algoritmo consiste en comparar
+pares de elementos adyacentes e intercambiarlos
+entre sí hasta que todos se encuentran ordenados.
+• Se realizan (n-1) pasadas, transportando en cada una
+de las mismas el menor o mayor elemento (según sea
+el caso) a su posición ideal. Al final de las (n-1)
+pasadas los elementos del arreglo estarán ordenados. 
 
 ---
 
