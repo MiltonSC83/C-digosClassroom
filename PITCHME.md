@@ -31,5 +31,12 @@ pasadas los elementos del arreglo estarán ordenados.
 ---
 
 ![Flux Explained](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
----
 
+---
+##### Análisis de eficiencia del método de burbuja
+
+Comparaciones: C = (n^2 -n)/2 
+
+Movimientos: Mmin = 0
+Mmed = 0.75 * (n^2 - n)
+Mmáx = 1.5 * (n^2 - n) 
