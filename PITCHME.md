@@ -23,6 +23,7 @@ intercambiándolos de posición si están en el orden equivocado
 • La idea básica de este algoritmo consiste en comparar
 pares de elementos adyacentes e intercambiarlos
 entre sí hasta que todos se encuentran ordenados.
+
 • Se realizan (n-1) pasadas, transportando en cada una
 de las mismas el menor o mayor elemento (según sea
 el caso) a su posición ideal. Al final de las (n-1)
@@ -38,5 +39,7 @@ pasadas los elementos del arreglo estarán ordenados.
 Comparaciones: C = (n^2 -n)/2 
 
 Movimientos: Mmin = 0
+
 Mmed = 0.75 * (n^2 - n)
+
 Mmáx = 1.5 * (n^2 - n) 
