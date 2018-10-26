@@ -44,6 +44,7 @@ Mmed = 0.75 * (n^2 - n)
 
 Mmáx = 1.5 * (n^2 - n) 
 ---
+´´´
 void ordBurbuja (long a[], int n)
 
 {
@@ -83,3 +84,4 @@ a[j+1] = aux;
 }
 
 }
+´´´
