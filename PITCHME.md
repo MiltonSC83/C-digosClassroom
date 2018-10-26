@@ -1,10 +1,10 @@
-# UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
+## UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO
 
-## FACULTAD DE INGENIERÍA
+### FACULTAD DE INGENIERÍA
 
-### Brigada 6: Ordenamiento Burbuja
+#### Brigada 6: Ordenamiento Burbuja
 
-### Integrantes: Sosa Corona Milton Osmar
+#### Integrantes: Sosa Corona Milton Osmar
 
 
 
